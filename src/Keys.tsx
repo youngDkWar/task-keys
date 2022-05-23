@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { idText } from 'typescript';
 import { IItem } from './index';
 
 export function Keys(props: { initialData: IItem[]; sorting: 'ASC' | 'DESC' }) {
